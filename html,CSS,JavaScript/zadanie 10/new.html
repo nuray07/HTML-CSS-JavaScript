@@ -1,0 +1,72 @@
+
+<html>
+<head>
+<title>CARS</title>
+
+<script language = "JavaScript">
+numimg=0
+imgslide=new Array ()
+
+imgslide[0]="./1.jpg"
+imgslide[1]="./2.jpg"
+imgslide[2]="./3.jpg"
+
+
+
+var timer;
+var i = 2000;
+var t = 2000;
+
+function dem(n)
+
+{
+if (n==1)
+{ numimg++
+if (numimg==4)
+numimg=0;
+}
+else
+{numimg--
+if (numimg== -1)
+numimg=3;
+}
+document.images[0].src=imgslide[numimg]
+}
+
+
+function anumslides()
+
+{ 
+clearInterval(timer);
+(document.images[0].src=imgslide[numimg])
+{numimg++}
+if(numimg>2) 
+{numimg=0;}
+timer = setInterval("anumslides()",2000);
+}
+function stopSlideShow(){ 
+clearInterval(timer);
+
+}
+
+</script>
+</head>
+
+<body align="center" bgcolor="grey">
+
+<h1>Mercedes-Benz</h1>
+<hr><br><br><br>
+<input type=button value=Back onClick="dem(0)">
+<img name="1" src = "1.jpg" width="700" height="300">
+<input type=button value=Next onClick="dem(1)"><br>
+
+<input type=button value=Start onClick="anumslides()"><br><br>
+<input type=button value=Stop onClick="stopSlideShow()"> <br><br>
+
+
+
+
+
+
+</body>
+</html>

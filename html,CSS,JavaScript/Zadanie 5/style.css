@@ -1,0 +1,80 @@
+body{
+		background: grey;
+		font-family: arial;
+	
+}
+h1{
+	font-size: 18px;
+}
+
+}
+a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+		  margin: 0px 15px 15px 160px;
+}
+ 
+.tilt:hover {
+-webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+		 
+}
+
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+		  margin: 0px 15px 15px 140px;
+}
+ 
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+		  
+}
+
+
+
+
+
+
+
+.morph1 {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+		  margin: 0px 15px 15px 140px;
+}
+ 
+.morph1:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(-360deg);
+     -moz-transform: rotate(-360deg);
+       -o-transform: rotate(-360deg);
+      -ms-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+		  
+}
+
+
+
